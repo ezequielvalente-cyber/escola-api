@@ -14,7 +14,7 @@ export class AlunosController {
     }
     @Get()
     findAll(){
-        return this.alunosService.findAll
+        return this.alunosService.findAll();
     }
     @Delete(':id')
     @HttpCode(HttpStatus.OK)
